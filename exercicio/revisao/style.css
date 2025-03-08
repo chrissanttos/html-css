@@ -1,0 +1,25 @@
+body{
+    background-color: aquamarine;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.header{
+    text-align: center;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+    width: 50px;
+}
+
+.item{
+    display: none;
+}
+
+div:hover > .item{
+    display: block;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.411);
+    color: white;
+}
